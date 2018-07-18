@@ -87,8 +87,9 @@ namespace RobotNavigator
 
         private bool PositionAvailable(int x, int y, List<Coordinate> grid)
         {
-            var nextPos = grid.First(c => c.x == x && c.y == y);
-            return nextPos.Robot == null;
+            //var nextPos = grid.FirstOrDefault(c => c.x == x && c.y == y);
+            //return nextPos != null && nextPos.Robot == null;
+            return true;
         }
 
         public void RotateLeft()
