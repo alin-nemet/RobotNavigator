@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RobotNavigator", "RobotNavigator\RobotNavigator.csproj", "{D79906AC-31A8-4EFA-9219-CA85FC92295E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RobotNavigator.Tests", "RobotNavigator.Tests\RobotNavigator.Tests.csproj", "{59717E7F-32A8-4922-9D4C-AE65B0FD200F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D79906AC-31A8-4EFA-9219-CA85FC92295E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D79906AC-31A8-4EFA-9219-CA85FC92295E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D79906AC-31A8-4EFA-9219-CA85FC92295E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D79906AC-31A8-4EFA-9219-CA85FC92295E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59717E7F-32A8-4922-9D4C-AE65B0FD200F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59717E7F-32A8-4922-9D4C-AE65B0FD200F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59717E7F-32A8-4922-9D4C-AE65B0FD200F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59717E7F-32A8-4922-9D4C-AE65B0FD200F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
