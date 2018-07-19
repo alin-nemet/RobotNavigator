@@ -87,6 +87,8 @@ namespace RobotNavigator
 
         private bool PositionAvailable(int x, int y, List<Coordinate> grid)
         {
+            // robot should only move on a cell if there is no other robot on that cell
+            // code below not working, for now should be ok to just move freely
             //var nextPos = grid.FirstOrDefault(c => c.x == x && c.y == y);
             //return nextPos != null && nextPos.Robot == null;
             return true;
@@ -105,8 +107,10 @@ namespace RobotNavigator
                 case "S":
                     Position.direction = "E";
                     break;
-                default:
+                case "W":
                     Position.direction = "S";
+                    break;
+                default:
                     break;
             }
         }
@@ -124,8 +128,10 @@ namespace RobotNavigator
                 case "S":
                     Position.direction = "W";
                     break;
-                default:
+                case "W":
                     Position.direction = "N";
+                    break;
+                default:
                     break;
             }
         }

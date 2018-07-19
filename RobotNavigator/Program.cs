@@ -35,9 +35,9 @@ namespace RobotNavigator
             }
 
             robots.ForEach(r => {
-                Console.WriteLine($"Robot starting Facing {r.GetInfo()}");
+                Console.WriteLine($"Robot starts facing {r.GetInfo()}");
                 r.Move(grid);
-                Console.WriteLine($"final position {r.GetInfo()}");
+                Console.WriteLine($"Final position {r.GetInfo()}");
             });
         }
     }
